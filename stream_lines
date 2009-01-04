@@ -1,0 +1,10 @@
+via alex toplap:
+
+sudo nice -n -10 gst-launch-0.10 oggmux name=mux ! shout2send ip=193.34.28.198 password=xxx mount=live ximagesrc \
+name=videosource use-damage=false endx=484 endy=244 ! video/x-raw-rgb,framerate=4/1 ! videorate ! ffmpegcolorspace \
+! videoscale method=1 ! video/x-raw-yuv,width=484,height=244,framerate=4/1 ! theoraenc ! queue ! mux. alsasrc \
+name=audiosource ! audio/x-raw-int,rate=22000,channels=2,depth=16 ! audioconvert ! vorbisenc quality=0.9 ! queue ! mux.
+
+_______________
+
+
