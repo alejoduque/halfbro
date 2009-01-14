@@ -8,3 +8,10 @@ name=audiosource ! audio/x-raw-int,rate=22000,channels=2,depth=16 ! audioconvert
 _______________
 
 
+dvsink-command -- ffmpeg2theora - -f dv -F 25:5 -v 2 -a 1 -c 1 -H 11025 -o - | oggfwd  streams.transmediale.de 8000 pycon3000 /pycon.ogg
+
+
+______________
+
+
+

@@ -739,7 +739,7 @@ supybot.plugins.Babelfish.public: True
 #
 # Default value: Portuguese German Dutch Chinese_Traditional Japanese French Greek Spanish Russian Korean Chinese_Simple English Italian
 ###
-supybot.plugins.Babelfish.languages: Portuguese German Spanish Chinese_traditional Japanese French Greek Dutch Russian Korean Chinese_simple English Italian
+supybot.plugins.Babelfish.languages: Portuguese German Dutch Chinese_Traditional Japanese French Greek Spanish Russian Korean Chinese_Simple English Italian
 
 ###
 # Determines whether this plugin is loaded by default.
