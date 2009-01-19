@@ -707,7 +707,7 @@ supybot.directories.log: /Users/ad/Desktop/fungus/tm09_videostreams/Supybot-0.83
 #
 # Default value:  
 ###
-supybot.plugins: Google Network Admin ChannelLogger Later Misc Note Weather Dict User Time Owner Seen Babelfish Config Channel
+supybot.plugins: Google Network Admin ChannelLogger Later Misc Note Weather Dict User Time Owner Seen Babelfish Config Channel StepperBot
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -739,7 +739,7 @@ supybot.plugins.Babelfish.public: True
 #
 # Default value: Portuguese German Dutch Chinese_Traditional Japanese French Greek Spanish Russian Korean Chinese_Simple English Italian
 ###
-supybot.plugins.Babelfish.languages: Portuguese German Dutch Chinese_Traditional Japanese French Greek Spanish Russian Korean Chinese_Simple English Italian
+supybot.plugins.Babelfish.languages: Portuguese German Spanish Chinese_traditional Japanese French Greek Dutch Russian Korean Chinese_simple English Italian
 
 ###
 # Determines whether this plugin is loaded by default.
@@ -1158,6 +1158,18 @@ supybot.plugins.Seen: True
 # Default value: True
 ###
 supybot.plugins.Seen.public: True
+
+###
+# Determines whether this plugin is loaded by default.
+###
+supybot.plugins.StepperBot: True
+
+###
+# Determines whether this plugin is publicly visible.
+#
+# Default value: True
+###
+supybot.plugins.StepperBot.public: True
 
 ###
 # Determines whether this plugin is loaded by default.
