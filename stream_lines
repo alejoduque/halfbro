@@ -10,6 +10,20 @@ _______________
 
 dvsink-command -- ffmpeg2theora - -f dv -F 25:5 -v 2 -a 1 -c 1 -H 11025 -o - | oggfwd  streams.transmediale.de 8000 pycon3000 /pycon.ogg
 
+_______________
+
+
+on the server, inside, to play a file as a fallback:
+
+#!/bin/bash
+
+while [ 1 ]; do
+cat halfBro4500_randommoves.ogg | oggfwd IP 8000 PASSWORD halfbro.ogg -d halfbro_IRC_controled_streamcam -g cheap_telepresence -n unloquer_alejo -u http://unloquer.0x08.org/
+done
+
+
+for avoiding the bump, every time the cat reaches the end, im suggested to add something like this:
+while cat "$file"; do :; done | otherthing
 
 ______________
 
